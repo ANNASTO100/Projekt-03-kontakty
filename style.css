@@ -15,12 +15,13 @@ body {
 
 /* ---------------------------------------------------- */
 .kon {
-  border: solid 1px #5d5e5f;
+  border: solid 2px rgba(95, 96, 97, 0.3);
   border-radius: 5px;
   text-align: center;
   width: 300px;
   padding: 15px;
   margin: 15px;
+  box-shadow: 2px 3px 5px 1px rgba(149, 197, 228, 0.2);;
 }
 .kon img {
   border-radius: 50%;
@@ -37,17 +38,24 @@ h1 {
   .kontakty {
     flex-direction: row;
     flex-wrap: wrap;
-	align-items: initial;
+    align-items: initial;
   }
+  .kon img {
+    height: 70px;
+  }
+
   .kon {
     flex: 1 0 44%;
-	display: flex;
-	
-	
+    display: flex;
   }
 }
 @media (min-width: 960px) {
-	.kon {
-		flex: 1 0 21%;
-	}
+  .kon {
+    flex: 1 1 22%;
+    flex-direction: column;
+	margin: 5px;
+  }
+  .kon img {
+    height: auto;
+  }
 }
