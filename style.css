@@ -1,4 +1,4 @@
-/* nejsme vcerejsi, pouzivame moderni box model */
+/* nejsme vcerejsi, pouzivame moderni box model */ 
 html {
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ body {
   font-size: 14px;
 }
 
-/* ---------------------------------------------------- */
+/* ---------------------------------------------------- */     /* vyřešila si to správně! :) */
 .kon {
   border: solid 2px rgba(95, 96, 97, 0.3);
   border-radius: 5px;
